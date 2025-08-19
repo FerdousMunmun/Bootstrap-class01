@@ -1,0 +1,46 @@
+/* All common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+list-style-type: none;
+
+
+}
+h1,h2,h3,h4,h5,h6,p{
+margin: 0;
+padding: 0;
+line-height: 0.8;
+font-family: "Lato", sans-serif;
+}
+/* 
+Header part start end */
+.navbar {
+    
+    background: #1E1E1E;
+}
+.nav-link{
+    color: #959595;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: lato;
+}
+.nav-link:hover{
+    color: #FD6F00;
+}
+.hireBtn{
+    background: #FD6F00;
+    padding: 8px 25px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    border: none;
+}
