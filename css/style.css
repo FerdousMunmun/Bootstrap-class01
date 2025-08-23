@@ -4,6 +4,8 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+      background: #1E1E1E;
 
 }
 a,a:hover{
@@ -19,7 +21,7 @@ h1,h2,h3,h4,h5,h6,p{
 margin: 0;
 padding: 0;
 line-height: 0.8;
-font-family: "Lato", sans-serif;
+
 }
 /* 
 Header part start end */
@@ -42,5 +44,75 @@ Header part start end */
     border-radius: 10px;
     color: white;
     outline: none;
-    border: none;
+    border: 2px solid #FD6F00;
 }
+/* Header part End */
+/* Banner part Start */
+#bannerPart{
+    padding-top: 170px;
+    padding-bottom: 100px;
+    background: #1e1e1e;
+}
+.bannerText h4{
+font-size: 24px;
+font-weight: 600;
+color: #707070;
+
+
+}
+.bannerText h3{
+font-size: 28px;
+font-weight: 700;
+color: #959595;
+padding-top: 10px;
+padding-bottom: 24px;
+}
+.bannerText h1{
+   background: linear-gradient(90deg, #984300 0%, #FD6F00 46%, #CA5900 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+font-size: 70px;
+font-weight: 900;
+padding-top: 10px;
+padding-bottom: 20px;
+
+
+}
+.bannerIcon{
+    padding-top: 17px;
+    padding-bottom: 30px;
+}
+.bannerIcon i{
+    color: #fff;
+    font-size: 24px;
+
+}
+.bannerBtn{
+    display: flex;
+    column-gap: 20px;
+}
+.counterItem{
+    background: #fff;
+    opacity: 4%;
+    padding: 10px;
+}
+.hireBtn:hover{
+    background: transparent;
+    border:2px solid #FD6F00;
+    transition: .4s;
+    
+}
+ .counterItem h2{
+
+   font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #984300 0%, #FD6F00 46%, #CA5900 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  color: transparent;
+}
+
+
+.counterItem h3{
+
+}
+/* Banner part End */
