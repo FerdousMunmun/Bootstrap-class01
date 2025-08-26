@@ -5,8 +5,7 @@
     outline: 0;
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
-      background: #1E1E1E;
-
+     
 }
 a,a:hover{
     text-decoration: none;
@@ -23,8 +22,13 @@ padding: 0;
 line-height: 0.8;
 
 }
+body{
+     background: #1E1E1E;
+
+}
+/* All common css end */
 /* 
-Header part start end */
+Header part start  */
 .navbar {
     
     background: #1E1E1E;
@@ -45,11 +49,12 @@ Header part start end */
     color: white;
     outline: none;
     border: 2px solid #FD6F00;
+    border-radius: 5%;
 }
 /* Header part End */
 /* Banner part Start */
 #bannerPart{
-    padding-top: 170px;
+    padding-top: 125px;
     padding-bottom: 100px;
     background: #1e1e1e;
 }
@@ -76,13 +81,26 @@ padding-bottom: 20px;
 
 
 }
+.iconRoundShap{
+    height: 40px;
+    width: 40px;
+    border:2px solid #575757;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+}
 .bannerIcon{
     padding-top: 17px;
     padding-bottom: 30px;
+    display: flex;
 }
 .bannerIcon i{
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 
 }
 .bannerBtn{
@@ -90,29 +108,174 @@ padding-bottom: 20px;
     column-gap: 20px;
 }
 .counterItem{
-    background: #fff;
-    opacity: 4%;
     padding: 10px;
+    border-right: 2px solid #959595;
 }
+.brN{
+    border-right: none;
+}
+
 .hireBtn:hover{
     background: transparent;
-    border:2px solid #FD6F00;
+    border:2px solid #FD6F00; 
+    border-radius: 5%;
     transition: .4s;
     
 }
  .counterItem h2{
 
-   font-size: 2.5rem;
-  font-weight: bold;
-  background: linear-gradient(90deg, #984300 0%, #FD6F00 46%, #CA5900 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text; 
-  color: transparent;
+   font-size: 24px;
+  font-weight: 800;
+  color: #FD6F00;
+  padding-bottom: 15px;
 }
 
 
 .counterItem h3{
-
+font-size: 20px;
+  font-weight: 700;
+  color: #DFDFDF;
+}
+.bannerCounter{
+    background: rgb(255, 255, 255,4%);
+    padding: 24px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+.bannerModel{
+    margin-left: 25px;
+    margin-top: 5px;
 }
 /* Banner part End */
+/* Service part start */
+#servicePart{
+    padding: 100px 0;
+}
+.commonTitle h3{
+    font-size: 40px;
+    font-weight: 700;
+    color:#fff;
+}
+.commonTitle p{
+    font-size: 20px;
+    font-weight: 500;
+    color:#959595;
+    padding-top: 20px;
+}
+.serviceup{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.servicedown{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.serviceone{
+   padding: 30px 30px;
+    background: rgb(255, 255, 255,4%);
+    text-align: center;
+    margin-top: 50px;
+}
+.serviceone:hover{
+    background: transparent;
+    transition: 0.4s;
+}
+.serviceone p{
+     font-size: 20px;
+    font-weight: 500;
+    color:#959595;
+    margin-right: 10px;
+}
+.servicetwo{
+   padding: 30px 30px;
+   background: rgb(255, 255, 255,4%);
+    text-align: center;
+    margin-top: 30px;
+     margin-right: 10px;
+}
+.servicetwo:hover{
+     background: transparent;
+    transition: 0.4s;
+}
+
+.servicetwo p{
+     font-size: 20px;
+    font-weight: 500;
+    color:#959595;
+}
+/* Service Part End */
+/* About Part Start */
+
+#aboutmePart{
+    padding: 100px 0;
+}
+.aboutText h3{
+    font-size: 40px;
+    font-weight: 700;
+    color:#fff;
+}
+.aboutText p{
+    font-size: 20px;
+    font-weight: 500;
+     color:#959595;
+     padding-top: 20px;
+}
+.aboutsecondpart{
+    display: flex;
+    justify-content: space-between;
+}
+.textitem p{
+    font-size: 20px;
+    font-weight: 500;
+     color:#959595;
+     padding-top: 200px;
+     line-height: 30px;
+}
+.aboutBtn a{
+    color: #fff;
+     font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.aboutBtn{
+    
+    padding: 8px 25px;
+    background: #FD6F00;
+    display: inline-block;
+    
+    margin-top: 20px;
+    
+}
+.aboutBtn:hover{
+     background: transparent; 
+     border-radius: 5%;
+      border:2px solid #FD6F00 ;
+    transition: 0.4s;
+    
+}
+.shape{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.shape img:hover{
+    background: transparent;
+    border: 2px solid #FD6F00;
+    transition: 0.4s;
+
+}
+.shape h3{
+font-size: 30px;
+    font-weight: 700;
+   background: linear-gradient(90deg, #984300 0%, #FD6F00 46%, #CA5900 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+padding-top: 20px;
+}
+.shape p{
+    font-size: 24x;
+    font-weight: 700;
+    color: #959595;
+    padding-top: 15px;
+}     
